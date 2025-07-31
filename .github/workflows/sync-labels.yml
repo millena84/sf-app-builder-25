@@ -14,3 +14,5 @@ jobs:
         with:
           config-file: .github/labels/labels_pdi.json
           delete-other-labels: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN_LABEL_PDI }}
