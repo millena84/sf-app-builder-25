@@ -13,6 +13,6 @@ jobs:
         uses: EndBug/label-sync@v2
         with:
           config-file: .github/labels/labels_pdi.json
-          delete-other-labels: false
+          delete-other-labels: true
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN_LABEL_PDI }}
