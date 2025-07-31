@@ -1,0 +1,16 @@
+name: 🔁 Sincronizar Labels
+
+on:
+  workflow_dispatch: # disparo manualmente no Actions
+
+jobs:
+  sync-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Sync labels with config
+        uses: EndBug/label-sync@v2
+        with:
+          config-file: .github/labels/labels_pdi.json
+          delete-other-labels: false
