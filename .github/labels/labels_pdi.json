@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Acompanhar mensuração",
+    "color": "ffffff",
+    "description": "Verificar como mensurar e se necessário, criar estratégias"
+  },
+  {
+    "name": "Alta probabilidade alcance",
+    "color": "008672",
+    "description": "Alta probabilidade de atingir dentro do ciclo (ano)"
+  },
+  {
+    "name": "Alta relevância",
+    "color": "d876e3",
+    "description": "Muito relevante para a meta e para o objetivo, prioridade alta"
+  },
+  {
+    "name": "Anotação estruturada",
+    "color": "d5bbae",
+    "description": "Necessita de anotação estruturada (seja para estudo ou para mensuração)"
+  },
+  {
+    "name": "Baixa probabilidade alcance",
+    "color": "d73a4a",
+    "description": "Baixa probabilidade de  ser alcançada dentro do ciclo (ano)"
+  },
+  {
+    "name": "Baixa relevância",
+    "color": "0075ca",
+    "description": "Não tem grande relevância para a meta ou objetivo, prioridade baixa"
+  },
+  {
+    "name": "Média probabilidade alcance",
+    "color": "e4e669",
+    "description": "Média probabilidade de  ser alcançada dentro do ciclo (ano)"
+  },
+  {
+    "name": "Média relevância",
+    "color": "7057ff",
+    "description": "Média Relevância a para a meta ou objetivo, prioridade média"
+  },
+  {
+    "name": "Preciso de ajuda",
+    "color": "d93f0b",
+    "description": "Precisa de suporte externo ou esclarecimento"
+  }
+]
